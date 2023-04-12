@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// import BasicSlider from "./components/BasicSlider/BasicSlider";
+// import VerticalSlider from "./components/VerticalSlider/VerticalSlider";
+// import ZoomSlider from "./components/ZoomSlider/ZoomSlider";
+// import SlidesChildrenSlider from "./components/SlidesChildrenSlider/SlidesChildrenSlider";
+// import BlendModeSlider from "./components/BlendModeSlider/BlendModeSlider";
+// import NavbarSlider from "./components/NavbarSlider/NavbarSlider";
+// import ButtonsSlider from "./components/ButtonsSlider/ButtonsSlider";
+import AutoplayButtonSlider from "./components/AutoplayButtonSlider/AutoplayButtonSlider";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <BasicSlider /> */}
+      {/* <VerticalSlider /> */}
+      {/* <ZoomSlider /> */}
+      {/* <SlidesChildrenSlider /> */}
+      {/* <BlendModeSlider /> */}
+      {/* <NavbarSlider /> */}
+      {/* <ButtonsSlider /> */}
+      <AutoplayButtonSlider />
     </div>
   );
 }
