@@ -36,9 +36,15 @@ const app = () => {
           backgroundColor: "#8A8A8A",
           maskBackgroundBlendMode: "luminosity",
           backgroundImage: bg_0,
-          backgroundAnimation: "fade",
+          // backgroundAnimation: "fade",
         }}
-      />
+      >
+        <div>
+          <h1>Slide 1</h1>
+          <p>Lorem Ipsum</p>
+          <button>Read more</button>
+        </div>
+      </Slide>
 
       <Slide
         shouldRenderMask
@@ -46,9 +52,15 @@ const app = () => {
           backgroundColor: "#8A8A8A",
           maskBackgroundBlendMode: "luminosity",
           backgroundImage: bg_0,
-          backgroundAnimation: "fade",
+          // backgroundAnimation: "fade",
         }}
-      />
+      >
+        <div>
+          <h1>Slide 2</h1>
+          <p>Lorem Ipsum</p>
+          <button>Read more</button>
+        </div>
+      </Slide>
 
       <Slide
         shouldRenderMask
@@ -56,9 +68,15 @@ const app = () => {
           backgroundColor: "#8A8A8A",
           maskBackgroundBlendMode: "luminosity",
           backgroundImage: bg_0,
-          backgroundAnimation: "fade",
+          // backgroundAnimation: "fade",
         }}
-      />
+      >
+        <div>
+          <h1>Slide 3</h1>
+          <p>Lorem Ipsum</p>
+          <button>Read more</button>
+        </div>
+      </Slide>
 
       <Slide
         shouldRenderMask
@@ -66,9 +84,15 @@ const app = () => {
           backgroundColor: "#8A8A8A",
           maskBackgroundBlendMode: "luminosity",
           backgroundImage: bg_0,
-          backgroundAnimation: "fade",
+          // backgroundAnimation: "fade",
         }}
-      />
+      >
+        <div>
+          <h1>Slide 4</h1>
+          <p>Lorem Ipsum</p>
+          <button>Read more</button>
+        </div>
+      </Slide>
 
       <Nav />
     </HeroSlider>
