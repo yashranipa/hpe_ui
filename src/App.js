@@ -1,23 +1,17 @@
-// import BasicSlider from "./components/BasicSlider/BasicSlider";
-// import VerticalSlider from "./components/VerticalSlider/VerticalSlider";
-// import ZoomSlider from "./components/ZoomSlider/ZoomSlider";
-// import SlidesChildrenSlider from "./components/SlidesChildrenSlider/SlidesChildrenSlider";
-// import BlendModeSlider from "./components/BlendModeSlider/BlendModeSlider";
-// import NavbarSlider from "./components/NavbarSlider/NavbarSlider";
-// import ButtonsSlider from "./components/ButtonsSlider/ButtonsSlider";
+import React from "react";
+// JSX
 import AutoplayButtonSlider from "./components/AutoplayButtonSlider/AutoplayButtonSlider";
 
-function App() {
+const app = () => {
   return (
-    // {/* <BasicSlider /> */}
-    // {/* <VerticalSlider /> */}
-    // {/* <ZoomSlider /> */}
-    // {/* <SlidesChildrenSlider /> */}
-    // {/* <BlendModeSlider /> */}
-    // {/* <NavbarSlider /> */}
-    // {/* <ButtonsSlider /> */}
-    <AutoplayButtonSlider />
+    <div
+      style={{
+        color: "#FFF"
+      }}
+    >
+      <AutoplayButtonSlider />
+    </div>
   );
-}
+};
 
-export default App;
+export default app;
