@@ -1,8 +1,9 @@
 import React from "react";
+import "./AutoplayButtonSlider.css";
 // JSX
-import HeroSlider, { Slide, Nav, AutoplayButton } from "hero-slider";
-import Wrapper from "../UI/Wrapper/Wrapper";
-import Title from "../UI/Title/Title";
+import HeroSlider, { Slide, Nav } from "hero-slider";
+// import Wrapper from "../UI/Wrapper/Wrapper";
+// import Title from "../UI/Title/Title";
 
 const bg_0 = "/images/bg_0.jpg";
 
@@ -25,39 +26,45 @@ const app = () => {
         height: "100vh",
       }}
     >
-      <Wrapper>
+      {/* <Wrapper>
         <Title></Title>
       </Wrapper>
-      <AutoplayButton />
+      <AutoplayButton /> */}
 
       <Slide
         shouldRenderMask
         background={{
-          backgroundColor: "#8A8A8A",
+          backgroundColor: "#000000",
           maskBackgroundBlendMode: "luminosity",
-          backgroundImage: bg_0,
+          backgroundImage: "bg_0",
           // backgroundAnimation: "fade",
         }}
       >
-        <div>
-          <h1>Slide 1</h1>
-          <p>Lorem Ipsum</p>
-          <button>Read more</button>
+        <div className="hero-container">
+          <h1 className="hero-title">
+            HPE transforms data lifecycle management
+          </h1>
+          <p className="hero-description">
+            Announcing expanded HPE Alletra portfolio with new file, block and
+            data protectoin services devilered through HPE GreenLake.
+          </p>
+          <button className="hero-button">Read the press release</button>
+          <button className="hero-button">Watch the full announcement</button>
         </div>
       </Slide>
 
       <Slide
         shouldRenderMask
         background={{
-          backgroundColor: "#8A8A8A",
+          backgroundColor: "#000000",
           maskBackgroundBlendMode: "luminosity",
           backgroundImage: bg_0,
           // backgroundAnimation: "fade",
         }}
       >
-        <div>
+        <div className="hero-container">
           <h1>Slide 2</h1>
-          <p>Lorem Ipsum</p>
+          <p className="hero-description">Lorem Ipsum</p>
           <button>Read more</button>
         </div>
       </Slide>
@@ -65,15 +72,15 @@ const app = () => {
       <Slide
         shouldRenderMask
         background={{
-          backgroundColor: "#8A8A8A",
+          backgroundColor: "#000000",
           maskBackgroundBlendMode: "luminosity",
           backgroundImage: bg_0,
           // backgroundAnimation: "fade",
         }}
       >
-        <div>
+        <div className="hero-container">
           <h1>Slide 3</h1>
-          <p>Lorem Ipsum</p>
+          <p className="hero-description">Lorem Ipsum</p>
           <button>Read more</button>
         </div>
       </Slide>
@@ -81,16 +88,32 @@ const app = () => {
       <Slide
         shouldRenderMask
         background={{
-          backgroundColor: "#8A8A8A",
+          backgroundColor: "#000000",
           maskBackgroundBlendMode: "luminosity",
           backgroundImage: bg_0,
           // backgroundAnimation: "fade",
         }}
       >
-        <div>
+        <div className="hero-container">
           <h1>Slide 4</h1>
-          <p>Lorem Ipsum</p>
+          <p className="hero-description">Lorem Ipsum</p>
           <button>Read more</button>
+        </div>
+      </Slide>
+
+      <Slide
+        shouldRenderMask
+        background={{
+          backgroundColor: "#000000",
+          maskBackgroundBlendMode: "luminosity",
+          backgroundImage: bg_0,
+          // backgroundAnimation: "fade",
+        }}
+      >
+        <div className="hero-container">
+          <h1>Slide 5</h1>
+          <p className="hero-description">Lorem Ipsum</p>
+          <button className="hero-button">Read more</button>
         </div>
       </Slide>
 

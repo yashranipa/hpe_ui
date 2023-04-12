@@ -9,16 +9,14 @@ import AutoplayButtonSlider from "./components/AutoplayButtonSlider/AutoplayButt
 
 function App() {
   return (
-    <div className="App">
-      {/* <BasicSlider /> */}
-      {/* <VerticalSlider /> */}
-      {/* <ZoomSlider /> */}
-      {/* <SlidesChildrenSlider /> */}
-      {/* <BlendModeSlider /> */}
-      {/* <NavbarSlider /> */}
-      {/* <ButtonsSlider /> */}
-      <AutoplayButtonSlider />
-    </div>
+    // {/* <BasicSlider /> */}
+    // {/* <VerticalSlider /> */}
+    // {/* <ZoomSlider /> */}
+    // {/* <SlidesChildrenSlider /> */}
+    // {/* <BlendModeSlider /> */}
+    // {/* <NavbarSlider /> */}
+    // {/* <ButtonsSlider /> */}
+    <AutoplayButtonSlider />
   );
 }
 

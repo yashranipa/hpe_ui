@@ -1,0 +1,23 @@
+.hero-container {
+    padding: 100px;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 40%
+}
+
+.hero-title {
+    font-size: 50px;
+}
+
+.hero-description {
+    font-size: 30px;
+}
+
+.hero-button {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+
