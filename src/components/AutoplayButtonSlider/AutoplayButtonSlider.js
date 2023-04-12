@@ -1,9 +1,10 @@
 import React from "react";
 import "./AutoplayButtonSlider.css";
+
 // JSX
-import HeroSlider, { Slide, Nav } from "hero-slider";
-// import Wrapper from "../UI/Wrapper/Wrapper";
-// import Title from "../UI/Title/Title";
+import HeroSlider, { AutoplayButton, Slide, Nav } from "hero-slider";
+import Wrapper from "../UI/Wrapper/Wrapper";
+import Title from "../UI/Title/Title";
 
 const bg_0 = "/images/bg_0.jpg";
 
@@ -26,18 +27,18 @@ const app = () => {
         height: "100vh",
       }}
     >
-      {/* <Wrapper>
+      <Wrapper>
         <Title></Title>
       </Wrapper>
-      <AutoplayButton /> */}
+      <AutoplayButton />
 
       <Slide
         shouldRenderMask
         background={{
           backgroundColor: "#000000",
           maskBackgroundBlendMode: "luminosity",
-          backgroundImage: "bg_0",
-          // backgroundAnimation: "fade",
+          backgroundImage: bg_0,
+          backgroundAnimation: "fade",
         }}
       >
         <div className="hero-container">
@@ -59,7 +60,7 @@ const app = () => {
           backgroundColor: "#000000",
           maskBackgroundBlendMode: "luminosity",
           backgroundImage: bg_0,
-          // backgroundAnimation: "fade",
+          backgroundAnimation: "fade",
         }}
       >
         <div className="hero-container">
@@ -75,7 +76,7 @@ const app = () => {
           backgroundColor: "#000000",
           maskBackgroundBlendMode: "luminosity",
           backgroundImage: bg_0,
-          // backgroundAnimation: "fade",
+          backgroundAnimation: "fade",
         }}
       >
         <div className="hero-container">
@@ -91,7 +92,7 @@ const app = () => {
           backgroundColor: "#000000",
           maskBackgroundBlendMode: "luminosity",
           backgroundImage: bg_0,
-          // backgroundAnimation: "fade",
+          backgroundAnimation: "fade",
         }}
       >
         <div className="hero-container">
@@ -107,7 +108,7 @@ const app = () => {
           backgroundColor: "#000000",
           maskBackgroundBlendMode: "luminosity",
           backgroundImage: bg_0,
-          // backgroundAnimation: "fade",
+          backgroundAnimation: "fade",
         }}
       >
         <div className="hero-container">
