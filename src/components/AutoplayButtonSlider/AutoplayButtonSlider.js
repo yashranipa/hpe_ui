@@ -4,11 +4,7 @@ import HeroSlider, { Slide, Nav, AutoplayButton } from "hero-slider";
 import Wrapper from "../UI/Wrapper/Wrapper";
 import Title from "../UI/Title/Title";
 
-// Images
-const kyoto = "https://i.imgur.com/xw5Abku.jpg";
-const tenryuJiTemple = "https://i.imgur.com/g5JNdYL.jpg";
-const hakone = "https://i.imgur.com/Iq6XtFR.jpg";
-const byodoInTemple = "https://i.imgur.com/le9OeEC.jpg";
+const bg_0 = "/images/bg_0.jpg";
 
 const app = () => {
   return (
@@ -30,7 +26,7 @@ const app = () => {
       }}
     >
       <Wrapper>
-        <Title>Autoplay Button Slider</Title>
+        <Title></Title>
       </Wrapper>
       <AutoplayButton />
 
@@ -39,7 +35,7 @@ const app = () => {
         background={{
           backgroundColor: "#8A8A8A",
           maskBackgroundBlendMode: "luminosity",
-          backgroundImage: kyoto,
+          backgroundImage: bg_0,
           backgroundAnimation: "fade",
         }}
       />
@@ -49,7 +45,7 @@ const app = () => {
         background={{
           backgroundColor: "#8A8A8A",
           maskBackgroundBlendMode: "luminosity",
-          backgroundImage: tenryuJiTemple,
+          backgroundImage: bg_0,
           backgroundAnimation: "fade",
         }}
       />
@@ -59,7 +55,7 @@ const app = () => {
         background={{
           backgroundColor: "#8A8A8A",
           maskBackgroundBlendMode: "luminosity",
-          backgroundImage: hakone,
+          backgroundImage: bg_0,
           backgroundAnimation: "fade",
         }}
       />
@@ -69,7 +65,7 @@ const app = () => {
         background={{
           backgroundColor: "#8A8A8A",
           maskBackgroundBlendMode: "luminosity",
-          backgroundImage: byodoInTemple,
+          backgroundImage: bg_0,
           backgroundAnimation: "fade",
         }}
       />
