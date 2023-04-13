@@ -43,5 +43,18 @@
   padding: 4px calc(18px - var(--btn-v4-border-width));
 }
 
+.btn-typo4 .icon {
+  height: .7em;
+  margin-left: 12px;
+  min-height: .7em;
+  min-width: .7em;
+  transition: transform .15s ease-in-out;
+  width: .7em
+}
+
+.btn-typo4 .icon.arrow-icon {
+  background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath fill='%2301A982' d='M9.586 6 5.893 2.307 7.307.893l5.4 5.4.707.707-.707.707-5.4 5.4-1.414-1.414L9.586 8H0V6h9.586Z'/%3E%3C/svg%3E") no-repeat
+}
+
 
 

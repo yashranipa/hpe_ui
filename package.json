@@ -5,6 +5,9 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@brightcove/react-player-loader": "^1.4.2",
+    "@videojs/http-streaming": "^2.16.2",
+    "bootstrap": "^5.2.3",
     "hero-slider": "^2.0.1",
     "react": "16.8.3",
     "react-dom": "16.8.3",
