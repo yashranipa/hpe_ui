@@ -1,14 +1,29 @@
 .hero-container {
-    padding: 100px;
+    padding: 50px;
     color: aliceblue;
     justify-content: center;
     align-items: center;
     text-align: left;
+    float:left;
     width: 40%
 }
 
+.hero-child {
+  padding: 50px;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  float:right;
+  width: 45%
+}
 .hero-title {
     font-size: 50px;
+}
+
+.hero-child-img {
+  width: 100%;
+  object-fit: contain;
 }
 
 .hero-description {
@@ -64,6 +79,7 @@
 .btn-ref { 
   text-decoration: none; 
 } 
+
 
 
 
