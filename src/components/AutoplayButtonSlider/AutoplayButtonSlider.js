@@ -54,19 +54,19 @@ const app = () => {
         }}
       >
         <div className="hero-container">
-          <h1 className="hero-title">
-            HPE transforms data lifecycle management
-          </h1>
-          <p className="hero-description">
-            Announcing expanded HPE Alletra portfolio with new file, block and
-            data protectoin services devilered through HPE GreenLake.
-          </p>
-          <button onClick={readThePress} className="btn-typo4 primary rounded green">Read the press release</button>
-          <a class="btn-typo4 primary rounded green btn-ref" data-analytics-region-id="smart_marquee_carousel_1|card_1_link_2" 
-          data-analytics-assetname="HPE GreenLake Day for storage" 
-          hpe-video-overlay="/us/en/resources/home/hpe-greenlake-day-for-storage/_jcr_content.details.json" data-attribute-video-title="HPE GreenLake Day for storage" data-analytics-assettype="Video" 
-          href={announcementVideo} role="button"> 
-          <span>Watch the full announcement</span> <span class="icon arrow-icon"></span> </a>
+            <h1 className="hero-title">
+              HPE transforms data lifecycle management
+            </h1>
+            <p className="hero-description">
+              Announcing expanded HPE Alletra portfolio with new file, block and
+              data protectoin services devilered through HPE GreenLake.
+            </p>
+            <button onClick={readThePress} className="btn-typo4 primary rounded green">Read the press release</button>
+            <a class="btn-typo4 primary rounded green btn-ref" data-analytics-region-id="smart_marquee_carousel_1|card_1_link_2" 
+            data-analytics-assetname="HPE GreenLake Day for storage" 
+            hpe-video-overlay="/us/en/resources/home/hpe-greenlake-day-for-storage/_jcr_content.details.json" data-attribute-video-title="HPE GreenLake Day for storage" data-analytics-assettype="Video" 
+            href={announcementVideo} role="button"> 
+            <span>Watch the full announcement</span> <span class="icon arrow-icon"></span> </a>
         </div>
       </Slide>
 
@@ -77,8 +77,8 @@ const app = () => {
           backgroundImage: bg_1,
           backgroundAnimation: 'fade'
         }}>
-        <div>
-          <div className="hero-container">
+        <div class="flex-container">
+          <div className="flex-item-left">
             <h1 className="hero-title">
             HPE 2023 Cybersecurity Annual Report
             </h1>
@@ -90,7 +90,7 @@ const app = () => {
             hpe-iframe-modal-trigger="https://paths.ext.hpe.com/r/a00130859?cc=us&amp;utm_campaign=edg&amp;utm_medium=com-int&amp;lang=en&amp;jumpid=va_kndyexb61i&amp;utm_content=report&amp;utm_source=or&amp;lb-mode=overlay&amp;lb-height=100&amp;lb-width=100" target="_self" href="https://paths.ext.hpe.com/r/a00130859?cc=us&amp;utm_campaign=edg&amp;utm_medium=com-int&amp;lang=en&amp;jumpid=va_kndyexb61i&amp;utm_content=report&amp;utm_source=or&amp;lb-mode=overlay&amp;lb-height=100&amp;lb-width=100"> 
             <span class="text">Read more</span> <span class="icon arrow-icon"></span> </a>
           </div>
-          <div className="hero-child ">
+            <div className="flex-item-right">
             <img className="hero-child-img" src={child_1} alt="" />
           </div>
         </div>   
@@ -104,8 +104,8 @@ const app = () => {
           backgroundImage: bg_2,
           backgroundAnimation: 'fade'
         }}>
-        <div>
-          <div className="hero-container">
+        <div className="flex-container">
+          <div className="flex-item-left">
             <h1 className="hero-title">
               Save up to 33%
             </h1>
@@ -120,7 +120,7 @@ const app = () => {
               <span class="icon arrow-icon"></span> 
             </a>
           </div>
-          <div className="hero-child ">
+          <div className="flex-item-right">
             <img className="hero-child-img" src={child_2} alt="" />
           </div>
         </div>          
@@ -133,12 +133,12 @@ const app = () => {
           backgroundImage: bg_3,
           backgroundAnimation: 'fade'
         }}>
-        <div>
-          <div className="hero-container">
-            <h1 className="hero-title">
+        <div className="flex-container">
+          <div className="flex-item-left">
+            <h1 className="hero-title" style={{color: "black"}}>
               HPE to acquire OpsRamp
             </h1>
-            <p className="hero-description">
+            <p className="hero-description" style={{color: "black"}}>
               Advancing HPE GreenLake hybrid cloud leadership, with edge-to-cloud platform enhancements.
             </p>
             <a class="btn-typo4 primary rounded green" 
@@ -148,7 +148,7 @@ const app = () => {
               <span class="icon arrow-icon"></span>
             </a>
           </div>
-          <div className="hero-child ">
+          <div className="flex-item-right">
             <img className="hero-child-img" src={child_3} alt="" />
           </div>
         </div>    
@@ -161,9 +161,9 @@ const app = () => {
           backgroundImage: bg_4,
           backgroundAnimation: 'fade'
         }}>
-        <div>
-          <div className="hero-container">
-            <h1 className="hero-title">
+        <div className="flex-container">
+          <div className="flex-item-left">
+            <h1 className="hero-title" style={{color: "black"}}>
               Winning with speed and scale
             </h1>
             <p className="hero-description">
@@ -181,7 +181,7 @@ const app = () => {
               <span class="icon arrow-icon"></span>
             </a>
           </div>
-          <div className="hero-child ">
+          <div className="flex-item-right">
             <img className="hero-child-img" src={child_4} alt="" />
           </div>
         </div>         
