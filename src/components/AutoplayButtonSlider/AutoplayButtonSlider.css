@@ -54,7 +54,7 @@
   max-width: 400px;
   min-height: 36px;
   min-width: 0;
-  padding: 4px calc(18px - var(--btn-v4-border-width));
+  padding: 10px 30px;;
 }
 
 .btn-typo4 {
@@ -68,7 +68,7 @@
   padding: 4px 23px;
   position: relative;
   text-align: center;
-  vertical-align: middle;h: .7em
+  vertical-align: middle;
 }
 
 .btn-typo4 .icon.arrow-icon {

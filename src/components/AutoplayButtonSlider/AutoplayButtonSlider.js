@@ -49,7 +49,6 @@ const app = () => {
           backgroundColor: "#000000",
           maskBackgroundBlendMode: "luminosity",
           backgroundImage: bg_0,
-          // backgroundAnimation: "fade",
         }}
       >
         <div className="hero-container">
