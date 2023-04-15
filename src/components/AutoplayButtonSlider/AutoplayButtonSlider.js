@@ -39,11 +39,10 @@ const app = () => {
         slidingDuration: 1000,
         slidingDelay: 100,
         shouldAutoplay: true,
-        shouldDisplayButtons: false,
+        shouldDisplayButtons: true,
         autoplayDuration: 3000,
         height: '100vh'
       }}>
-      <AutoplayButton />
 
       <Slide
         background={{
@@ -141,7 +140,7 @@ const app = () => {
             <p className="hero-description" style={{color: "black"}}>
               Advancing HPE GreenLake hybrid cloud leadership, with edge-to-cloud platform enhancements.
             </p>
-            <a class="btn-typo4 primary rounded green" 
+            <a class="btn-typo4 primary rounded green btn-ref" 
               data-analytics-region-id="smart_marquee_carousel_1|card_4_link_1" 
               href="https://www.hpe.com/us/en/newsroom/press-release/2023/03/hewlett-packard-enterprise-to-acquire-opsramp-advancing-hybrid-cloud-leadership-and-expanding-hpe-greenlake-into-it-operations-management.html" target="_self"> 
               <span class="text">Read more</span>
@@ -163,13 +162,13 @@ const app = () => {
         }}>
         <div className="flex-container">
           <div className="flex-item-left">
-            <h1 className="hero-title" style={{color: "black"}}>
+            <h1 className="hero-title">
               Winning with speed and scale
             </h1>
             <p className="hero-description">
               Western Canada Lottery Corporation innovates to deliver gaming experiences when and where players want them.
             </p>
-            <a class="btn-typo4 primary rounded grey" 
+            <a class="btn-typo4 primary rounded grey btn-ref" 
               data-analytics-region-id="smart_marquee_carousel_1|card_5_link_1" 
               data-analytics-uaid="3709e5a6-70b6-4557-ab18-79d4ed12a099" 
               data-analytics-assettype="success story" 
