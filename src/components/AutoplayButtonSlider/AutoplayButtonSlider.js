@@ -1,9 +1,12 @@
 import React from 'react'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { BiRightArrowAlt } from "react-icons/bi";
+import { IconContext } from "react-icons";
+
 // JSX
 import HeroSlider, {
   Slide,
-  Nav,
-  AutoplayButton
+  Nav
 } from 'hero-slider'
 import "./AutoplayButtonSlider.css"; 
 
@@ -52,19 +55,29 @@ const app = () => {
         }}
       >
         <div className="hero-container">
-            <h1 className="hero-title">
-              HPE transforms data lifecycle management
-            </h1>
-            <p className="hero-description">
-              Announcing expanded HPE Alletra portfolio with new file, block and
-              data protectoin services devilered through HPE GreenLake.
-            </p>
-            <button onClick={readThePress} className="btn-typo4 primary rounded green">Read the press release</button>
-            <a class="btn-typo4 primary rounded green btn-ref" data-analytics-region-id="smart_marquee_carousel_1|card_1_link_2" 
-            data-analytics-assetname="HPE GreenLake Day for storage" 
-            hpe-video-overlay="/us/en/resources/home/hpe-greenlake-day-for-storage/_jcr_content.details.json" data-attribute-video-title="HPE GreenLake Day for storage" data-analytics-assettype="Video" 
-            href={announcementVideo} role="button"> 
-            <span>Watch the full announcement</span> <span class="icon arrow-icon"></span> </a>
+          <h1 className="hero-title">
+            HPE transforms data lifecycle management
+          </h1>
+          <p className="hero-description">
+            Announcing expanded HPE Alletra portfolio with new file, block and
+            data protectoin services devilered through HPE GreenLake.
+          </p>
+          <button onClick={readThePress} 
+                  className="btn-typo4 primary rounded green">
+            <span>Read the press release</span>
+            <IconContext.Provider value={{ size: "2em" }}>
+                <BiRightArrowAlt/>
+            </IconContext.Provider>
+          </button>
+          <a class="btn-typo4 primary rounded green btn-ref" data-analytics-region-id="smart_marquee_carousel_1|card_1_link_2" 
+             data-analytics-assetname="HPE GreenLake Day for storage" 
+             hpe-video-overlay="/us/en/resources/home/hpe-greenlake-day-for-storage/_jcr_content.details.json" data-attribute-video-title="HPE GreenLake Day for storage" data-analytics-assettype="Video" 
+             href={announcementVideo} role="button"> 
+            <span>Watch the full announcement</span>
+            <IconContext.Provider value={{ size: "2em" }}>
+                <BiRightArrowAlt/>
+            </IconContext.Provider>
+          </a>
         </div>
       </Slide>
 
@@ -86,7 +99,11 @@ const app = () => {
             </p>
             <a class="btn-typo4 primary rounded green btn-ref" data-analytics-region-id="smart_marquee_carousel_1|card_2_link_1" 
             hpe-iframe-modal-trigger="https://paths.ext.hpe.com/r/a00130859?cc=us&amp;utm_campaign=edg&amp;utm_medium=com-int&amp;lang=en&amp;jumpid=va_kndyexb61i&amp;utm_content=report&amp;utm_source=or&amp;lb-mode=overlay&amp;lb-height=100&amp;lb-width=100" target="_self" href="https://paths.ext.hpe.com/r/a00130859?cc=us&amp;utm_campaign=edg&amp;utm_medium=com-int&amp;lang=en&amp;jumpid=va_kndyexb61i&amp;utm_content=report&amp;utm_source=or&amp;lb-mode=overlay&amp;lb-height=100&amp;lb-width=100"> 
-            <span class="text">Read more</span> <span class="icon arrow-icon"></span> </a>
+              <span class="text">Read more </span>
+              <IconContext.Provider value={{ size: "2em" }}>
+                <BiRightArrowAlt/>
+              </IconContext.Provider>
+            </a>
           </div>
             <div className="flex-item-right">
             <img className="hero-child-img" src={child_1} alt="" />
@@ -115,7 +132,9 @@ const app = () => {
               href="https://www.hpe.com/us/en/solutions/smb/jrit-promotions.html?jumpid=in_smb_dm_cdeal#Offers" 
               target="_self"> 
               <span class="text">See offers</span>
-              <span class="icon arrow-icon"></span> 
+              <IconContext.Provider value={{ size: "2em" }}>
+                <BiRightArrowAlt/>
+              </IconContext.Provider>
             </a>
           </div>
           <div className="flex-item-right">
@@ -143,7 +162,9 @@ const app = () => {
               data-analytics-region-id="smart_marquee_carousel_1|card_4_link_1" 
               href="https://www.hpe.com/us/en/newsroom/press-release/2023/03/hewlett-packard-enterprise-to-acquire-opsramp-advancing-hybrid-cloud-leadership-and-expanding-hpe-greenlake-into-it-operations-management.html" target="_self"> 
               <span class="text">Read more</span>
-              <span class="icon arrow-icon"></span>
+              <IconContext.Provider value={{ size: "2em" }}>
+                <BiRightArrowAlt/>
+              </IconContext.Provider>
             </a>
           </div>
           <div className="flex-item-right">
@@ -176,7 +197,9 @@ const app = () => {
               data-analytics-assetname="Insights for enhanced gaming, stronger communities – Western Canada Lottery Corporation" 
               target="_self"> 
               <span class="text">Learn more</span>
-              <span class="icon arrow-icon"></span>
+              <IconContext.Provider value={{ size: "2em" }}>
+                <BiRightArrowAlt/>
+              </IconContext.Provider>
             </a>
           </div>
           <div className="flex-item-right">
