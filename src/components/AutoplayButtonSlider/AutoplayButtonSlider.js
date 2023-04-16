@@ -41,7 +41,7 @@ const app = () => {
       settings={{
         slidingDuration: 1000,
         slidingDelay: 100,
-        shouldAutoplay: true,
+        shouldAutoplay: false,
         shouldDisplayButtons: true,
         autoplayDuration: 3000,
         height: '100vh'
@@ -54,7 +54,8 @@ const app = () => {
           backgroundImage: bg_0,
         }}
       >
-        <div className="hero-container">
+        <div className="flex-container">
+        <div className="flex-item-left">
           <h1 className="hero-title">
             HPE transforms data lifecycle management
           </h1>
@@ -63,8 +64,8 @@ const app = () => {
             data protectoin services devilered through HPE GreenLake.
           </p>
           <button onClick={readThePress} 
-                  className="btn-typo4 primary rounded green">
-            <span>Read the press release</span>
+                  className="btn-typo4 primary rounded green hero-button">
+            <span className="text text-inline">Read the press release</span>
             <IconContext.Provider value={{ size: "2em" }}>
                 <BiRightArrowAlt/>
             </IconContext.Provider>
@@ -73,11 +74,13 @@ const app = () => {
              data-analytics-assetname="HPE GreenLake Day for storage" 
              hpe-video-overlay="/us/en/resources/home/hpe-greenlake-day-for-storage/_jcr_content.details.json" data-attribute-video-title="HPE GreenLake Day for storage" data-analytics-assettype="Video" 
              href={announcementVideo} role="button"> 
-            <span>Watch the full announcement</span>
+            <span className="text text-inline">Watch the full announcement</span>
             <IconContext.Provider value={{ size: "2em" }}>
                 <BiRightArrowAlt/>
             </IconContext.Provider>
           </a>
+        </div>
+        <div className="flex-item-right"></div>
         </div>
       </Slide>
 
@@ -88,7 +91,7 @@ const app = () => {
           backgroundImage: bg_1,
           backgroundAnimation: 'fade'
         }}>
-        <div class="flex-container">
+        <div className="flex-container">
           <div className="flex-item-left">
             <h1 className="hero-title">
             HPE 2023 Cybersecurity Annual Report
