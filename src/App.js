@@ -1,6 +1,6 @@
 import React from "react";
 // JSX
-import AutoplayButtonSlider from "./components/AutoplayButtonSlider/AutoplayButtonSlider";
+import HeroBannerCarousel from "./components/HeroBannerCarousel/HeroBannerCarousel";
 const app = () => {
   return (
     <div
@@ -8,7 +8,7 @@ const app = () => {
         color: "#FFF"
       }}
     >
-      <AutoplayButtonSlider />
+      <HeroBannerCarousel />
     </div>
   );
 };
