@@ -1,3 +1,4 @@
+import React from "react";
 import { Grommet } from "grommet";
 import GrommetSimpleCarousel from "./GrommetSimpleCarousel";
 
