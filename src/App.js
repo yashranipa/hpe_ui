@@ -1,16 +1,12 @@
-import React from "react";
-// JSX
-import AutoplayButtonSlider from "./components/AutoplayButtonSlider/AutoplayButtonSlider";
-const app = () => {
-  return (
-    <div
-      style={{
-        color: "#FFF"
-      }}
-    >
-      <AutoplayButtonSlider />
-    </div>
-  );
-};
+import { Grommet } from "grommet";
+import GrommetSimpleCarousel from "./GrommetSimpleCarousel";
 
-export default app;
+function App() {
+  return (
+    <Grommet className="App">
+      <GrommetSimpleCarousel></GrommetSimpleCarousel>
+    </Grommet>
+  );
+}
+
+export default App;
